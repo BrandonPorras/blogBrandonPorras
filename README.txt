@@ -1,3 +1,9 @@
+/***********************************************
+
+Los archivos exportados de las configuraciones se encuentrn en la carpeta sites/default/files/sync
+se utilizo la distribucion zymphonies de drupal
+la base de datos se encuentra en el archivo : "archivos_backups.sql
+/********************************************************************
 
 CONTENTS OF THIS FILE
 ---------------------
