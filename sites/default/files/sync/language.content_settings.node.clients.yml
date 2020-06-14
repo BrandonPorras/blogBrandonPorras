@@ -1,0 +1,13 @@
+uuid: e8699111-22b9-40ef-b4a1-cbef70c9b34f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.clients
+_core:
+  default_config_hash: E7AEn4SSu419M1crEbxH390GOdPIRLrTSeZEx6Fmapo
+id: node.clients
+target_entity_type_id: node
+target_bundle: clients
+default_langcode: site_default
+language_alterable: false

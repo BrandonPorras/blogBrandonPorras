@@ -1,0 +1,21 @@
+uuid: 491fed8b-3711-4f70-a5cf-7960c73455f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.work
+_core:
+  default_config_hash: mp563PHnmE_zFaKox6G68qxgZ0Azu4paT9BiaerJWZU
+id: node.work.field_tags
+field_name: field_tags
+entity_type: node
+bundle: work
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

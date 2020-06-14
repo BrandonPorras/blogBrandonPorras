@@ -1,0 +1,22 @@
+uuid: 13ab0cb3-aa5d-428c-80a1-397f0eb22db1
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: ''
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+_core:
+  default_config_hash: 5dZv1GYfeWBqfXYWFLEGDxg5v1FxkuOzzkrZA35GdLY
+id: feedback
+label: 'Website feedback'
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: 'Send it to me'
+redirect: ''

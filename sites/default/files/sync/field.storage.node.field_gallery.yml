@@ -1,0 +1,32 @@
+uuid: cd73ddf6-052d-4edd-80f2-eb8e91e1438b
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: 1YTVlpo0CEE1BEW9Yz-Zztk4sBglZD8KxhmVSqYL1dU
+id: node.field_gallery
+field_name: field_gallery
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

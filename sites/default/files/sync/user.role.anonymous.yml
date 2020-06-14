@@ -1,0 +1,16 @@
+uuid: 66089487-a772-4b21-a309-2f80192331d8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ip23Ty-joHtuHNxUI0bhbRKALDKpM9DehfuFreX3y7A
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'view files'

@@ -1,0 +1,22 @@
+uuid: a505fec6-806c-4d10-b36e-48236043c70c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: 7ubgETxfEjrW10tCt4uw5jGnmQaEOqleR_tLIjObnE8
+id: druppio_small_business_messages
+theme: druppio_small_business
+region: helper
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

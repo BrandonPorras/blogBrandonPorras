@@ -1,0 +1,13 @@
+check:
+  disabled_extensions: false
+  interval_days: 1
+fetch:
+  url: ''
+  max_attempts: 2
+  timeout: 30
+notification:
+  emails:
+    - email@example.com
+  threshold: all
+_core:
+  default_config_hash: ZRq2q8GuAkGZ8pbQVLSdyJVzAH7nAm7h8pWonWMMo1A

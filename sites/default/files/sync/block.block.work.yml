@@ -1,0 +1,30 @@
+uuid: dccaa0b5-c60f-411a-973b-1d167dad7c76
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: FAjBnfxlg0pBlOxELjHz-XBIHUyi3GlwA5oSQ8YEqDY
+id: work
+theme: druppio_small_business
+region: section_second
+weight: 0
+provider: null
+plugin: 'block_content:a92be27a-04ac-46a2-9442-3b0e5ab100a2'
+settings:
+  id: 'block_content:a92be27a-04ac-46a2-9442-3b0e5ab100a2'
+  label: Work
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

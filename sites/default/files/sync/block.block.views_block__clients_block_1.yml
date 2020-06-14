@@ -1,0 +1,32 @@
+uuid: df8a82bb-b7ff-4e8c-8c9a-01e34bbe19d4
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.clients
+  module:
+    - system
+    - views
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: qrkpe3CLgpoWbhscfZpPMmLlw5iLUIgJjdzjZOVuTwY
+id: views_block__clients_block_1
+theme: druppio_small_business
+region: section_fourth
+weight: -8
+provider: null
+plugin: 'views_block:clients-block_1'
+settings:
+  id: 'views_block:clients-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

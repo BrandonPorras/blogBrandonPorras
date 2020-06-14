@@ -1,0 +1,13 @@
+uuid: 1af09744-a36b-4b04-a812-e49eae04ea60
+langcode: en
+status: true
+dependencies:
+  config:
+    - file_entity.type.image
+_core:
+  default_config_hash: HFlxzWzkhoQdE6m1_H3IC3zhmZDtDQEt7Z6Lpn8Mw3s
+id: file.image
+target_entity_type_id: file
+target_bundle: image
+default_langcode: site_default
+language_alterable: false

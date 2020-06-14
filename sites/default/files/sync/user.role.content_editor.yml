@@ -1,0 +1,21 @@
+uuid: 54a510f5-e03f-489d-85f9-e37722859a7a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5-qLfKiB5KRFGQIuc6eMNmROiU632dZFk_IeYmcTLiQ
+id: content_editor
+label: 'Content editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create url aliases'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view files'
+  - 'view the administration theme'

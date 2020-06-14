@@ -1,0 +1,13 @@
+uuid: 4db17ecc-94cb-4c62-bd22-da9c2c5872c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - file_entity.type.document
+_core:
+  default_config_hash: _zAwaXN56wI7Gegdt8uE62YZ-BzG5E2iGP1l9MR-Nus
+id: file.document
+target_entity_type_id: file
+target_bundle: document
+default_langcode: site_default
+language_alterable: false

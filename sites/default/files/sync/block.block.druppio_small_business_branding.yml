@@ -1,0 +1,25 @@
+uuid: 7ff4a908-839d-4873-84f6-3b49e6b8e20b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: LKZldP48ln-0VJ7dQp2XQiWBEsv3fi9tVOrpGu8SPCM
+id: druppio_small_business_branding
+theme: druppio_small_business
+region: branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 878f56ea-b235-483a-8feb-c6472ed5b8cd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TH1GriELYxQP_ot5jPj_XNFqn0pgn2l7chcSL2CYieo
+name: client_image
+label: 'Client Image'
+effects:
+  214eaca6-5037-4c48-a907-cd1c39e49eb0:
+    uuid: 214eaca6-5037-4c48-a907-cd1c39e49eb0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 245
+      height: 245
+      anchor: center-center

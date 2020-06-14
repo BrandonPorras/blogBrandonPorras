@@ -1,0 +1,20 @@
+uuid: 5928ad2e-4e85-4a1f-94ff-c8b5d7560a45
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: yVOq2sRGbSZEjmYAxjI6XDrP14hNtlIzTE97DiDb9t4
+name: Header
+type: header
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,23 @@
+uuid: f018986d-47cc-4699-a49a-627800900e10
+langcode: en
+status: true
+dependencies:
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: VLkMXnkU6gbfJ6zjIFOmHIYEBRubt2LPQzBGQVXzNxk
+id: copyright
+theme: druppio_small_business
+region: footer_first
+weight: -9
+provider: null
+plugin: 'block_content:eb5607a2-5c2f-49a8-bc1d-632d64b32be7'
+settings:
+  id: 'block_content:eb5607a2-5c2f-49a8-bc1d-632d64b32be7'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

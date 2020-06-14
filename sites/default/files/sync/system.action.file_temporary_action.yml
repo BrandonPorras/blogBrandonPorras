@@ -1,0 +1,13 @@
+uuid: ad365d17-95de-4245-8d41-050d7555931b
+langcode: en
+status: true
+dependencies:
+  module:
+    - file_entity
+_core:
+  default_config_hash: 5FkfJ7Bdxqa_s-qkKQ2PwLkVAltQhs4-hF9TVct349U
+id: file_temporary_action
+label: 'Set file status to temporary'
+type: file
+plugin: file_temporary_action
+configuration: {  }

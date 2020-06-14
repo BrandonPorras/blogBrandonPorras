@@ -1,0 +1,20 @@
+uuid: 6e7220ad-5611-41bb-b84d-d00f21dd140c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: wihtBhhgWJzYCI559qirNqtQbZGswpIM5E37WXlOphk
+id: druppio_small_business_local_actions
+theme: druppio_small_business
+region: helper
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: ceaab4fc-907c-4c79-8602-78c6fc406f19
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.work
+_core:
+  default_config_hash: U17rJREFXWL6UFhWJF4ovX4Ut_xN9YGq0cuJ2wrGIfM
+id: node.work
+target_entity_type_id: node
+target_bundle: work
+default_langcode: site_default
+language_alterable: false

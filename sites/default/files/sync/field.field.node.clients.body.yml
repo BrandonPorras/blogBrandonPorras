@@ -1,0 +1,25 @@
+uuid: 9ef58aaa-d3a4-4eb3-bcdd-e4f2e150e896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.clients
+  module:
+    - text
+_core:
+  default_config_hash: w-5-mRf7ZT2iqcgV3Ew9aDW0NcZ0vq-KG4pdlUplMiE
+id: node.clients.body
+field_name: body
+entity_type: node
+bundle: clients
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,13 @@
+uuid: 82d950c8-86db-424b-9c61-b6d09ca86bd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+_core:
+  default_config_hash: Yd-tY-r5WRY_8CgSZbjofCun2bTnfaUAMYJIBOyQlK8
+id: comment.comment
+target_entity_type_id: comment
+target_bundle: comment
+default_langcode: site_default
+language_alterable: false

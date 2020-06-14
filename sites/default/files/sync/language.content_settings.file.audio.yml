@@ -1,0 +1,13 @@
+uuid: 152a690a-8945-4326-adec-30bdd5c28200
+langcode: en
+status: true
+dependencies:
+  config:
+    - file_entity.type.audio
+_core:
+  default_config_hash: bcFYmjzrjM9fJZ7ccyhhw2GtbAarOVUBxM9argHUxDY
+id: file.audio
+target_entity_type_id: file
+target_bundle: audio
+default_langcode: site_default
+language_alterable: false

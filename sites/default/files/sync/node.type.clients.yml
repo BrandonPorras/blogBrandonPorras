@@ -1,0 +1,20 @@
+uuid: b28cbee1-40e9-4aaa-9c36-136d14d4b0d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 4HOFTvIbwnykEBORmbf1ja4fnRm405Ko5fQs6c2FyxM
+name: Clients
+type: clients
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,22 @@
+uuid: fa85be80-ce3f-45b3-99f3-9284ae89a610
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: 47NMj9eDG2RZ4_8RNcfcfHW32oWhYY_PRVapZyACrUk
+id: druppio_small_business_help
+theme: druppio_small_business
+region: helper
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

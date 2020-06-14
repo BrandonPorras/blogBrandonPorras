@@ -1,0 +1,23 @@
+uuid: 6b8f827d-bf85-4488-8e5f-f0ec2fa0fe49
+langcode: en
+status: true
+dependencies:
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: ytTEhjdMlxjQoNr3uaJLqzydQiIravNZJZg5VScXUhg
+id: footersocial
+theme: druppio_small_business
+region: footer_second
+weight: -9
+provider: null
+plugin: 'block_content:02e33400-85ff-4a81-bef6-f1d7bdf93436'
+settings:
+  id: 'block_content:02e33400-85ff-4a81-bef6-f1d7bdf93436'
+  label: 'Footer social'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

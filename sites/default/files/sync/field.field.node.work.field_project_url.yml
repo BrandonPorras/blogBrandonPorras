@@ -1,0 +1,21 @@
+uuid: 067f6801-e4ab-4e0e-850b-e5445409a886
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_url
+    - node.type.work
+_core:
+  default_config_hash: fFd-JuBg02FNpQ-gNks1UY8Y4f7sRKLC_QIQb8toGl8
+id: node.work.field_project_url
+field_name: field_project_url
+entity_type: node
+bundle: work
+label: 'Project URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: acfabf0e-c430-4c71-8075-c3fbd0984c9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: rOJzaSLlmcDW9p-66egSIAAGH1sQJsb7PaI2xdm6mGw
+id: skills
+theme: druppio_small_business
+region: section_third
+weight: 0
+provider: null
+plugin: 'block_content:0b0ebeb9-8cb2-4377-8b76-212f59cff8f3'
+settings:
+  id: 'block_content:0b0ebeb9-8cb2-4377-8b76-212f59cff8f3'
+  label: Skills
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

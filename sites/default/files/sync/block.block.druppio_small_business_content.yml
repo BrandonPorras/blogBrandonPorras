@@ -1,0 +1,22 @@
+uuid: 820ceb06-14a4-42b9-9401-0ac13bd6b42a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - druppio_small_business
+_core:
+  default_config_hash: _sLY0emHhPUb_a1vbMaNrU9fKJt-vZt66B-Ln-UB3_k
+id: druppio_small_business_content
+theme: druppio_small_business
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

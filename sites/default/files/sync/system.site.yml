@@ -1,0 +1,15 @@
+name: 'Brandon Porras'
+mail: brandon.porras.26@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+mail_notification: ''
+_core:
+  default_config_hash: zJFlkSMPRbADM6Eam5ud1BwHaXvXBzyE_bkiEIQNFHs
+uuid: 57c6ee15-4055-4fe4-8e62-afed76c8ed4b
